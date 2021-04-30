@@ -1,8 +1,15 @@
 {
 	"name": "jsx-to-svg",
 	"displayName": "jsx-to-svg",
-	"description": "",
+	"description": "VS Code extension that allows converting JSX files to SVG previews.",
+	"icon": "jsx.png",
+	"license": "MIT",
 	"version": "0.0.2",
+	"keywords": [
+		"JSX",
+		"SVG",
+		"JSX to SVG Converter"
+	],
 	"engines": {
 		"vscode": "^1.55.0"
 	},

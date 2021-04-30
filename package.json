@@ -1,6 +1,6 @@
 {
 	"name": "jsx-to-svg",
-	"displayName": "jsx-to-svg",
+	"displayName": "JSX to SVG viewer",
 	"description": "VS Code extension that allows converting JSX files to SVG previews.",
 	"icon": "jsx.png",
 	"license": "MIT",

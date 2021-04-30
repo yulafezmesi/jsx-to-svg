@@ -18,8 +18,6 @@ function activate(context) {
 	// The commandId parameter must match the command field in package.json
 	const disposable = vscode.commands.registerCommand('jsx-to-svg.previewSvg', async function ({ fsPath }) {
 
-		console.log('selam')
-
 		const jsx = fs.readFileSync(fsPath).toString();
 		// The code you place here will be executed every time your command is executed
 		try {
@@ -63,7 +61,7 @@ function getWebviewContent(svg) {
   <head>
 	  <meta charset="UTF-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <title>Cat Coding</title>
+	  <title>JSX to SVG</title>
   </head>
   <body style="background:#FAFAFA;padding:1rem">
 	  ${svg}
